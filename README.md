@@ -4,7 +4,7 @@
 Invoke-MFAEnterPSSession -ComputerName "DCSERVER01" -Credential (Get-Credential)
 ```
 ### TODO: Version 1.01
-> Rename repository to something less obscure.
+> Rename repository to something less obscure.  
 > Make the recipient phone number dynamic based on the user's Azure AD account.   
 
 I need to modify the Azure Function to accept the user's email address as input and use the Microsoft Graph API to fetch the associated phone number.  
