@@ -18,7 +18,7 @@
 + Select "HTTP trigger" as the template, give it a name (e.g., "RequestMFAOTP"), and set the authorization level to "Function".
 + Click "Create" to create the function.
 
-> Implement the Request-MFAOTP logic using Twilio:
+> Implement the Request-MFAOTP logic using Twilio:  
 *Replace the content of the index.js file in the "RequestMFAOTP" function with the following code:*
 
 ```javascript
