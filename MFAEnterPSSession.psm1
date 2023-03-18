@@ -27,3 +27,24 @@ function Invoke-MFAEnterPSSession {
         Write-Host "Invalid OTP. Access denied."
     }
 }
+
+
+
+function Request-MFAOTP {
+    # Replace this URL with the URL of your RequestMFAOTP Azure Function
+    $functionUrl = 'https://your-function-app.azurewebsites.net/api/otp?code=your-function-key'
+
+    try {
+        $response = Invoke-WebRequest -Uri $functionUrl -Method Get
+        $result = $response | ConvertFrom-Json
+
+        if ($response.StatusCode -eq 200) {
+            return $result.otp
+        } else {
+            throw "Error calling Azure Function: $($result.message)"
+        }
+    } catch {
+        Write-Error $_.Exception.Message
+        return $null
+    }
+}
