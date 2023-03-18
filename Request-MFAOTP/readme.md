@@ -93,5 +93,5 @@ function generateOTP() {
 + RECIPIENT_PHONE_NUMBER: The phone number to which the OTP should be sent, also in E.164 format
 + Click "Save".
 
-
+![Phone.jpg]
 
