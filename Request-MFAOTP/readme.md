@@ -93,5 +93,7 @@ function generateOTP() {
 + RECIPIENT_PHONE_NUMBER: The phone number to which the OTP should be sent, also in E.164 format
 + Click "Save".
 
-![Phone.jpg]
-
+### Testing functionality before testing module - from azure functions
+![Phone.jpg](https://raw.githubusercontent.com/Calvindd2f/mfa_sh-ll/main/Request-MFAOTP/Screenshot%202023-03-18%20125330.png)
+### Received on mobile
+![Phone.jpg](https://raw.githubusercontent.com/Calvindd2f/mfa_sh-ll/main/Request-MFAOTP/Phone.jpg)
