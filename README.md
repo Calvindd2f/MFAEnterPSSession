@@ -3,6 +3,12 @@
 ```powershell
 Invoke-MFAEnterPSSession -ComputerName "DCSERVER01" -Credential (Get-Credential)
 ```
+
+### Video of version 1.0 in use
+https://youtu.be/8I5w7onWPr0
+
+
+
 ### TODO: Version 1.01
 > Rename repository to something less obscure.  
 > Make the recipient phone number dynamic based on the user's Azure AD account.   
