@@ -10,7 +10,7 @@ https://youtu.be/8I5w7onWPr0
 
 
 ### TODO: Version 1.01
-> Rename repository to something less obscure. [x] [20.03.2023]
+> Rename repository to something less obscure. ****Fixxed - 20.03.2023** **   
 > Make the recipient phone number dynamic based on the user's Azure AD account.   
 
 I need to modify the Azure Function to accept the user's email address as input and use the Microsoft Graph API to fetch the associated phone number.  
